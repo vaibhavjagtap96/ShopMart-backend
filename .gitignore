@@ -1,0 +1,115 @@
+# ===== Node / JavaScript =====
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+.pnpm-debug.log
+
+# ===== Environment files (do NOT commit secrets) =====
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.test
+.env.production
+
+# ===== Build / output =====
+dist/
+build/
+out/
+*.localbuild
+.next/                 # Next.js
+/.vercel/              # Vercel output
+/.parcel-cache/
+.cache/
+coverage/
+public/build/          # CRA / custom client build folder
+
+# ===== Server-specific =====
+npm-debug.log
+logs/
+*.log
+pids/
+*.pid
+*.seed
+tmp/
+temp/
+uploads/
+uploads/*
+
+# ===== Database / data =====
+data/
+data/db/
+*.sqlite
+*.db
+dump/
+
+# ===== Docker =====
+docker-compose.override.yml
+docker-compose.*.yml
+.docker/
+
+# ===== IDEs / Editors =====
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Tests / Coverage =====
+coverage/
+.jest/
+jest-puppeteer/
+test-results/
+
+# ===== TypeScript =====
+*.tsbuildinfo
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== Misc =====
+*.pem
+*.key
+*.crt
+*.p12
+.envrc
+
+# ===== Optional: lockfile policy (uncomment if you prefer to ignore lockfiles) =====
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ===== Client / frontend specifics (React / CRA) =====
+/client/node_modules/
+/client/build/
+/client/.env.local
+/client/.env.development.local
+/client/.env.production.local
+
+# ===== Server / backend specifics =====
+/server/node_modules/
+/server/dist/
+/server/build/
+/server/.env
+/server/.env.local
+
+# ===== Security / credentials (example patterns to add if you have these files) =====
+/secrets/
+/certs/
+/keys/
+*.pem
+*.key
+
+# End of file
