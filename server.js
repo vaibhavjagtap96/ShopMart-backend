@@ -22,7 +22,7 @@ const app = express();
 // ✅ Allowed Origins (both local and production)
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://shop-sphere-app-frontend.vercel.app",
+  "https://shop-mart-frontend-kappa.vercel.app",
 ];
 
 // ✅ CORS Configuration
